@@ -1,4 +1,4 @@
-from classes import DiceSet
+from monolith.classes.classes import DiceSet
 import unittest
  
 class TestDie(unittest.TestCase):
