@@ -3,7 +3,7 @@ import random as rnd
 import unittest
  
 class TestDie(unittest.TestCase):
-    def test_add_integers_positive(self):
+    def test_die_init(self):
         die = Die("./monolith/classes/tests/die0.txt")
         rnd.seed(574891)
         result = die.faces
