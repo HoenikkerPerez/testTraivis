@@ -1,4 +1,5 @@
 from monolith.classes.DiceSet import Die
+import random as rnd
 import unittest
  
 class TestDie(unittest.TestCase):
