@@ -6,8 +6,9 @@ class TestDie(unittest.TestCase):
     def test_add_integers_positive(self):
         die = Die("./monolith/classes/tests/die0.txt")
         rnd.seed(574891)
-        print(die.faces)
-        self.assertEqual(result, 3)
+        result = die.faces
+        print(result)
+        self.assertEqual(result, ['bike', 'moonandstars', 'bag', 'bird', 'crying', 'angry'])
 
     
  
