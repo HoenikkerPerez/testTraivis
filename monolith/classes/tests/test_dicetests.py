@@ -1,4 +1,4 @@
-from monolith.classes.Diceset import Die
+from monolith.classes.DiceSet import Die
 import unittest
  
 class TestDie(unittest.TestCase):
